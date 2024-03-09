@@ -1,0 +1,157 @@
+/* Information about the author 
+
+Misha Hlebnicov is an Audio engineer and head of sound.
+
+Yes this document was written by hand
+Everything you see here is Copyright © 2023 Misha Hlebnicov. All rights reserved.
+
+*/
+
+/* css reset*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* MY STYLES */
+
+/*smooth scroll behaviour*/
+
+html {
+	scroll-behavior: smooth;
+}
+
+/*for accessiblility: disable smooth scrolling when users have prefers-reduced-motion enabled*/
+ @media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
+
+/*body*/
+
+body {
+    background-color: #2F2F2F;
+    color: #FFF;
+    margin: 0px;
+}
+
+/*typography*/
+h1 {
+    font-family: 'Work Sans', sans-serif;
+    color: #fff;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 66px;
+}
+h2 {
+    font-family: 'Work Sans', sans-serif;
+    color: #C1C1C1;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 41px;
+}
+h3 {
+    font-family: 'Work Sans', sans-serif;
+    color: #434343;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+h4 {
+    font-family: 'Work Sans', sans-serif;
+    color: #9c9c9c;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 16px;
+    padding-bottom: 16px;
+}
+p {
+    font-family: 'Work Sans', sans-serif;
+    color: #C1C1C1;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+}
+a {
+    font-family: 'Work Sans', sans-serif;
+    color: #00A3FF;
+    text-decoration: none;
+}
+a:hover {
+    color: #66C8FF;
+}
+ul {
+    font-family: 'Work Sans', sans-serif;
+    color: #434343;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 23px;
+    list-style-position: outside;
+    margin-left: 20px;
+    padding: 0;
+    list-style-type: disc;
+}
+li {
+    font-family: 'Work Sans', sans-serif;
+    color: #434343;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 23px;
+}
+.italics {
+    font-style: italic;
+}
+
+/*sections*/
+.hero {
+    margin: 80px;
+}
